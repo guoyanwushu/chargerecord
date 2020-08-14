@@ -25,6 +25,10 @@ const routes = [
   {
     path: '/newrecord',
     component: () => import('../views/record/NewRecord.vue')
+  },
+  {
+    path: '/recordlist',
+    component: () => import('../views/record/RecordList.vue')
   }
 ]
 
